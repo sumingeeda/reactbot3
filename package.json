@@ -1,0 +1,19 @@
+{
+  "name": "reactbot3",
+  "version": "1.0.0",
+  "description": "React bot for webpage",
+  "main": "index.js",
+  "engines": {
+    "node": "16.15.0",
+    "npm": "8.5.5"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "backend" : "nodemon index.js"
+  },
+  "author": "sumin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
