@@ -13,7 +13,6 @@ const credentials = {
     private_key: config.googlePrivateKey,
 };
 
-
 const sessionClient = new dialogflow.SessionsClient({ projectId, credentials });
 const sessionPath = sessionClient.projectAgentSessionPath(projectId, sessionId);
 
