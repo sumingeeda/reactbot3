@@ -4,7 +4,7 @@ const app = express();
 
 //app.use(bodyParser.json());
 
-app.get('/',     app.get('/', (req, res) => {
+app.get('/', (req, res) => {
   res.send({ 'hello': 'there' })
 });
 
